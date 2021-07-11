@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-<div class="page">
     <header>
-        <a class="home-btn" href="../index.php">Главная</a>
+       <?php require("../header/header.html")?>
     </header>
+<div class="page">
 
+</div>
 
 
 
     <footer>
-
+        <?php require("../footer/footer.html") ?>
     </footer>
-</div>
 
 </body>
 </html>

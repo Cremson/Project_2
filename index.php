@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
 
     <meta charset="UTF-8">
@@ -9,16 +8,19 @@
 </head>
 
 <body>
-
 <header>
-    <a class="home-btn" href="../index.php">Главная</a>
+    <?php require("layout/layout.php") ?>
 </header>
+<main class="main">
+
+</main>
+
 
 
 <footer>
+    <?php require("footer/footer.html") ?>
 
 </footer>
-
 </body>
 
 </html>
