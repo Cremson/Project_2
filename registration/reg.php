@@ -11,7 +11,7 @@
 <body>
 <div class="page">
     <header>
-
+        <?php require("../header/header.html") ?>
     </header>
     <div class="reg--php">
         <form action="" method="">
@@ -29,16 +29,16 @@
             <input type="password" placeholder="Подтвердите пароль">
             <button>Зарегистрироваться</button>
             <p>
-                У вас уже есть аккаунт - <a class="but" href="../login/auth.php">Авторизируйтесь !</a>
+                 Уже есть аккаунт - <a class="but" href="../login/auth.php">Авторизируйтесь !</a>
             </p>
         </form>
     </div>
 </div>
 
+
+
 <footer>
-
+    <?php require("../footer/footer.html") ?>
 </footer>
-
-
 </body>
 </html>
