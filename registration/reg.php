@@ -9,12 +9,13 @@
 
 </head>
 <body>
+<header>
+    <?php require("../header/header.html") ?>
+</header>
 <div class="page">
-    <header>
-        <?php require("../header/header.html") ?>
-    </header>
+
     <div class="reg--php">
-        <form action="" method="">
+        <form action="../posts/pic.php" method="post" enctype="multipart/form-data">
             <label>Имя</label>
             <input type="text" placeholder="Введите свое имя">
             <label>Введите свой логин</label>

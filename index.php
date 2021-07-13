@@ -11,9 +11,9 @@
 <header>
     <?php require("layout/layout.php") ?>
 </header>
-<main class="main">
+<div class="page">
 
-</main>
+</div>
 
 
 
