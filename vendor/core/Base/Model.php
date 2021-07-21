@@ -3,7 +3,7 @@
 
 namespace vendor\core\Base;
 
-use vendor\core\db;
+use vendor\core\Db;
 
 abstract class Model
 {
@@ -16,7 +16,7 @@ abstract class Model
     }
     public function query($sql)
     {
-        return $this->pdo->execute($sql);
+        return $this->pdo->execute();
     }
     public function findAll()
     {
