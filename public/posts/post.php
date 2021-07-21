@@ -1,5 +1,8 @@
 <?php
-require("../../app/models/pic.php");
+$link = mysqli_connect("localhost", "root", "", "test");
+
+$img = mysqli_query($link, "SELECT * FROM `images`");
+
 ?>
 
 <!doctype html>
@@ -14,9 +17,10 @@ require("../../app/models/pic.php");
     <?php require("../header/header.php") ?>
 </header>
 <div class="page">
-    <?php foreach ($img as $pic =>$sic)
+    <?php
+    while($result = mysqli_fetch_assoc($img))
     {?>
-        <img src="../img/<?php echo $sic ?>.jpg" width="400" height="400"  alt="">
+        <img src="../img/<?php echo $result['image'] ?>.jpg" width="200"  alt="">
     <?php } ?>
 </div>
 
