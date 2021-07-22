@@ -1,6 +1,6 @@
 
 <div class="main-inner">
-    <a class="nav-main" href="../registration/reg.php">Регистрация и Авторизация</a>
-    <a class="nav-main" href="../profile/profile.php">Профиль</a>
-    <a class="nav-main" href="../public/posts/post.php">Список постов</a>
+    <a class="nav-main" href="/registration/reg">Регистрация и Авторизация</a>
+    <a class="nav-main" href="/profile/profile">Профиль</a>
+    <a class="nav-main" href="/posts/post">Список постов</a>
 </div>

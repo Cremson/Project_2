@@ -13,13 +13,13 @@
     </div>
 </header>
 <div class="page">
-
+    <?=$content ?>
 </div>
 
 
 <footer>
     <footer>
-
+        <?php require 'footer/footer.php'?>
     </footer>
 </footer>
 </body>

@@ -15,19 +15,19 @@
 <div class="page">
 
     <div class="reg--php">
-        <form action="../../app/models/pic.php" method="post" enctype="multipart/form-data">
+        <form action="/vendor/signup.php" method="post" enctype="multipart/form-data">
             <label>Имя</label>
-            <input type="text" placeholder="Введите свое имя">
+            <input type="text" name="name" placeholder="Введите свое имя">
             <label>Введите свой логин</label>
-            <input type="text" placeholder="Введите логин">
+            <input type="text" name="login" placeholder="Введите логин">
             <label>Введите адрес своей почты</label>
-            <input type="email" placeholder="Введите адрес своей почты">
+            <input type="email" name="email" placeholder="Введите адрес своей почты">
             <label>Изображение профиля</label>
-            <input type="file">
+            <input type="file" name="avatar">
             <label>Введите пароль</label>
-            <input type="password" placeholder="Введите пароль">
+            <input type="password" name="password" placeholder="Введите пароль">
             <label>Подтвердите пароль</label>
-            <input type="password" placeholder="Подтвердите пароль">
+            <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
             <button>Зарегистрироваться</button>
             <p>
                  Уже есть аккаунт - <a class="but" href="../login/auth.php">Авторизируйтесь !</a>
