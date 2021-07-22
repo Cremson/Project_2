@@ -4,7 +4,7 @@
 namespace vendor\core;
 
 
-class db
+class Db
 {
     protected $pdo;
     protected static $instance;
@@ -24,7 +24,7 @@ class db
     public function execute($sql)
     {
         $stmt = $this->pdo->prepare($sql);
-        return $stmt->execute();
+        return $stmt->execute($sql);
     }
     public function query($sql)
     {

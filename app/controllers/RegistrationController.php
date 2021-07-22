@@ -6,8 +6,7 @@ namespace app\controllers;
 
 class RegistrationController extends AppController
 {
-    public function indexAction()
+    public function regAction()
     {
-        echo 'registration::index';
     }
 }

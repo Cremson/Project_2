@@ -16,7 +16,7 @@ abstract class Model
     }
     public function query($sql)
     {
-        return $this->pdo->execute();
+        return $this->pdo->execute($sql);
     }
     public function findAll()
     {

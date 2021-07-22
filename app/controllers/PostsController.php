@@ -4,13 +4,13 @@ namespace app\controllers;
 
 use app\models\Main;
 
+
 class PostsController extends AppController
 {
-    public function indexAction()
+    public function postAction()
     {
-        $model = new Main;
-        $res = $model->query("CREATE TABLE posts SELECT * FROM img");
-        var_dump($res);
+
     }
+
 
 }
