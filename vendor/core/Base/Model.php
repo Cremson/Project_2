@@ -10,7 +10,7 @@ abstract class Model
     protected $pdo;
     protected $table;
 
-    public function __contruct()
+    public function __construct()
     {
         $this->pdo = Db::instance();
     }
@@ -23,6 +23,5 @@ abstract class Model
         $sql = "SELECT * FROM {$this->table}";
         return $this->pdo->query($sql);
     }
-
 
 }
