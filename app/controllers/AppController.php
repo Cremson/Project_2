@@ -4,7 +4,7 @@
 namespace app\controllers;
 
 
-use vendor\core\Base\Controller;
+use oop\core\Base\Controller;
 
 class AppController extends Controller
 {

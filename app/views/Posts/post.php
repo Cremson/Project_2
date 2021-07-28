@@ -1,9 +1,7 @@
-<?php require("../../app/models/pic.php");
-?>
 
-<div class="page">
-    <?php foreach ($img as $pic =>$sic)
-    {?>
-        <img src="../img/<?php echo $sic ?>.jpg" width="400" height="400"  alt="">
-    <?php } ?>
-</div>
+    <?php if (!empty($img)): ?>
+        <?php foreach ($img as $pic): ?>
+            <img src="/public/img/<?php echo $pic['image'] ?>.jpg" width="300" height="300" alt="">
+        <?php endforeach; ?>
+    <?php endif; ?>
+

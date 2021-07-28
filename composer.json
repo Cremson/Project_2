@@ -1,0 +1,18 @@
+{
+    "name": "oop/oop",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "oop\\": "vendor/oop",
+            "app\\": "app"
+        }
+    },
+    "require":
+    {
+//        "gabordemooij/redbean": "dev-master",
+        "monolog/monolog": "^2.3",
+        "vlucas/valitron": "^1.4"
+
+    }
+}
