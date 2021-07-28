@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57261451-d718-40fa-9520-016895b612f5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/public/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.htaccess" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vendor/oop/libs/functions.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/public/.htaccess" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/vlucas/valitron" />
+      <path value="$PROJECT_DIR$/vendor/oop/libs" />
+      <path value="$PROJECT_DIR$/vendor/oop/core" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/gabordemooij/redbean" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1vRTZyr8xMIemFmPCWlWO3fc4VC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/oop/core/Base" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\OOP.local\vendor\oop\core\Base" />
+      <recent name="C:\OpenServer\domains\OOP.local\vendor\oop\core\libs" />
+      <recent name="C:\OpenServer\domains\OOP\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\OOP.local\config" />
+      <recent name="C:\OpenServer\domains\OOP.local\vendor\OOP" />
+      <recent name="C:\OpenServer\domains\OOP.local\app\views\Posts" />
+      <recent name="C:\OpenServer\domains\OOP.local\app\models" />
+      <recent name="C:\OpenServer\domains\OOP.local\app\controllers" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57261451-d718-40fa-9520-016895b612f5" name="Default Changelist" comment="" />
+      <created>1626523961234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626523961234</updated>
+      <workItem from="1626523962421" duration="2240000" />
+      <workItem from="1626617471283" duration="1156000" />
+      <workItem from="1626618646876" duration="1729000" />
+      <workItem from="1626620801049" duration="298000" />
+      <workItem from="1626621208509" duration="766000" />
+      <workItem from="1626680567629" duration="6260000" />
+      <workItem from="1626703397831" duration="5898000" />
+      <workItem from="1626779433073" duration="7750000" />
+      <workItem from="1626795177503" duration="8704000" />
+      <workItem from="1626810854624" duration="1639000" />
+      <workItem from="1626857841789" duration="5552000" />
+      <workItem from="1626869095846" duration="7337000" />
+      <workItem from="1626890312090" duration="3345000" />
+      <workItem from="1626948995851" duration="4968000" />
+      <workItem from="1626955507300" duration="8743000" />
+      <workItem from="1627033881491" duration="8238000" />
+      <workItem from="1627050842087" duration="11161000" />
+      <workItem from="1627066166426" duration="3726000" />
+      <workItem from="1627126095491" duration="2571000" />
+      <workItem from="1627138623765" duration="1315000" />
+      <workItem from="1627148475234" duration="652000" />
+      <workItem from="1627154314673" duration="593000" />
+      <workItem from="1627218674554" duration="2101000" />
+      <workItem from="1627302762395" duration="12733000" />
+      <workItem from="1627320923457" duration="1845000" />
+      <workItem from="1627322797649" duration="954000" />
+      <workItem from="1627323849644" duration="32000" />
+      <workItem from="1627323937760" duration="6000" />
+      <workItem from="1627324526133" duration="26000" />
+      <workItem from="1627324576800" duration="65000" />
+      <workItem from="1627324784615" duration="297000" />
+      <workItem from="1627326358170" duration="2989000" />
+      <workItem from="1627332572217" duration="6425000" />
+      <workItem from="1627381354289" duration="2534000" />
+      <workItem from="1627384644567" duration="893000" />
+      <workItem from="1627386435435" duration="11768000" />
+      <workItem from="1627409208941" duration="6605000" />
+      <workItem from="1627417894066" duration="75000" />
+      <workItem from="1627422956944" duration="10243000" />
+      <workItem from="1627467695009" duration="6863000" />
+      <workItem from="1627486419689" duration="3485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

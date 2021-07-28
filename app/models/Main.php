@@ -5,9 +5,10 @@ namespace app\models;
 
 
 
-use vendor\core\Base\Model;
+use oop\core\Base\Model;
 
 class Main extends Model
 {
     public $table = 'img';
+    public $table_user = 'user';
 }
