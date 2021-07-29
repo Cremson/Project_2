@@ -1,80 +1,97 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
 }
-body{
+body
+{
     height: 100vh;
 }
-.page{
+.page
+{
     height: 100vh;
 }
-.home-btn{
+.home-btn
+{
     text-decoration: none;
     color: #000000;
 }
-.grid{
+.grid
+{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
-.nav-main{
+.nav-main
+{
     text-decoration: none;
     color: black;
     font-size: 25px;
-    padding: 5px;
+    padding: 25px;
 }
-.main{
+.main
+{
     height: 100vh;
 }
-.reg--php{
+.reg--php
+{
     height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-form{
+form
+{
     display: flex;
     flex-direction: column;
     width: 400px;
     font-size: 20px;
 
 }
-input {
+input
+{
     margin: 10px 0;
     padding: 5px;
     outline: none;
     border: unset;
     border-bottom: 2px solid #e3e3e3;
 }
-.but{
+.but
+{
     text-decoration: none;
     color: #998a8a;
     font-size: 20px;
 }
-p{
+p
+{
    padding: 10px 0;
 }
-button{
+button
+{
     padding: 10px;
     border: unset;
     cursor: pointer;
 }
-.card{
+.card
+{
     max-width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
     margin: auto;
 }
-img {
-    border-radius: 5px 5px 0 0;
+img
+{
+    border-radius: 5px 5px 5px 5px;
 }
 
-.footer{
+.footer
+{
     font-size: 25px;
-color: #000000;
+    color: #000000;
 }
-.nav-footer{
+.nav-footer
+{
     color: #ff0000;
     text-decoration: none;
 }

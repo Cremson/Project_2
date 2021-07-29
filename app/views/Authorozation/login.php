@@ -5,7 +5,7 @@
     <div class="reg--php">
         <form action="" method="">
             <label>Логин</label>
-            <input type="text" placeholder="Введите логин">
+            <input type="text" id="login" placeholder="Введите логин">
             <label>Пароль</label>
             <input type="password" placeholder="Введите пароль">
             <button>Войти</button>
