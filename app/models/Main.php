@@ -11,4 +11,7 @@ class Main extends Model
 {
     public $table = 'img';
     public $table_user = 'user';
+    public $pk = 'id';
+
+
 }

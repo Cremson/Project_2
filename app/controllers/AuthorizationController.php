@@ -4,6 +4,7 @@
 namespace app\controllers;
 
 use app\models\User;
+use app\models\Main;
 use oop\core\Base\View;
 
 class AuthorizationController extends AppController
@@ -21,7 +22,7 @@ class AuthorizationController extends AppController
             {
                 $_SESSION['error'] = 'Логин или пароль введены неверно';
             }
-            redirect();
+            redirect("/Profile/profile");
         }
         View::setMeta('Авторизация');
     }

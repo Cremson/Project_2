@@ -1,17 +1,24 @@
 <?php
 
-
 namespace app\controllers;
 
-
+use app\models\Main;
+use oop\core\Base\Model;
 use oop\core\Base\View;
 
 class ProfileController extends AppController
 {
     public function profileAction()
     {
+        if(isset($_SESSION['user']))
+        {
+            $model = new Main;
+            $user = \R::findOne('user');
+            $this->set(compact( 'user'));
+        }
 
 
+        View::setMeta('Профиль');
     }
     public function logoutAction()
     {
