@@ -15,9 +15,10 @@
     </div>
 </header>
 <div class="page">
-<?php //debug($_SESSION);?>
 
-    <?php if(isset($_SESSION['error'])): ?>
+    <?php
+
+    if(isset($_SESSION['error'])):?>
         <div class="alert alert-danger" role="alert">
             <?=$_SESSION['error']; unset($_SESSION['error'])?>
         </div>
