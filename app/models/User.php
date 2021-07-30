@@ -2,29 +2,33 @@
 
 
 namespace app\models;
-use oop\core\Db;
 use oop\core\Base\Model;
 
 class User extends Model
 {
-    public $attributes = [
+    public $attributes =
+    [
         'login' => '',
         'password' => '',
         'email' => '',
         'name' => '',
     ];
 
-    public $rules = [
-        'required' => [
+    public $rules =
+    [
+        'required' =>
+        [
             ['login'],
             ['password'],
             ['email'],
             ['name'],
         ],
-        'email' => [
+        'email' =>
+        [
             ['email'],
         ],
-        'lengthMin' => [
+        'lengthMin' =>
+        [
             ['password', 3],
         ]
     ];
