@@ -29,7 +29,7 @@ class RegistrationController extends AppController
             {
                 $_SESSION['error'] = 'Ошибка! Попробуйте позже';
             }
-            redirect("/Profile/profile");
+            redirect("/Authorization/login");
 
         }
         View::setMeta('Регистрация');
