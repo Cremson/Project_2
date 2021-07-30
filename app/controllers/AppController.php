@@ -10,5 +10,4 @@ use oop\core\Base\Model;
 class AppController extends Controller
 {
 
-
 }

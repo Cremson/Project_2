@@ -18,7 +18,6 @@ require __DIR__ . '/../vendor/autoload.php';
 
 
 new \oop\core\App;
-
 // defaults routs
 
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
