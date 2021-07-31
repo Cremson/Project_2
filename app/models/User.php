@@ -2,7 +2,6 @@
 
 
 namespace app\models;
-use oop\core\Db;
 use oop\core\Base\Model;
 
 class User extends Model
