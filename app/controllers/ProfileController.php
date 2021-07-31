@@ -35,10 +35,24 @@ class ProfileController extends AppController
         if ( isset($data['change_password']))
         {
             $findPassword = \R::findOne('user', 'id = ?', [$id]);
-            $findPassword->password = $data['password'] ;
+            $findPassword->password = password_hash($data['password'], PASSWORD_DEFAULT);
             \R::store($findPassword);
         }
+        if ( isset($data['change_avatar']))
+        {
+            $findAvatar = \R::findOne('user', 'id = ?', [$id]);
+            $ava = $_FILES['avatar']['name'];
+            $avaTmp = $_FILES['avatar']['tmp_name'];
+            $path = "uploads/" . $ava;
+            $findAvatar->avatar = $ava;
+            if (move_uploaded_file($avaTmp, $path))
+            {
 
+            }
+            \R::store($findAvatar);
+
+
+        }
 
         View::setMeta('Профиль');
     }
