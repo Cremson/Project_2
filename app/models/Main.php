@@ -3,8 +3,6 @@
 
 namespace app\models;
 
-
-
 use oop\core\Base\Model;
 
 class Main extends Model
